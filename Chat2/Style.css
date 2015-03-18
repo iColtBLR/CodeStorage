@@ -1,0 +1,122 @@
+div.header{
+  width: 1066px;
+  text-align: center;
+  color: #eee;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 10px;
+}
+#chatName{
+   color: black;
+    float: left;
+}
+
+div.right_sidebar{
+  background-color: #ADD8E6;
+  color: #777;
+  float: left;
+  width: 288px;
+  height: 795px;
+  text-align: center;
+}
+
+
+div.history{
+
+  float: left;
+  width: 850px;
+  height: 600px;
+
+}
+
+div.message{
+  float: left;
+  width: 600px;
+  height: 550px;
+}
+input.send{
+  float: left;
+  margin-top: 20px;
+  background-color: red;
+  width: 120px;
+  text-align: center;
+  height: 65px;
+  border: 4px solid #777;
+  border-radius: 8px;
+}
+#select{
+  margin-top: 3px;
+  width: 100px;
+  text-align: center;
+  height: 45px;
+  border: 4px solid #777;
+  border-radius: 8px;
+}
+
+div.main{
+  margin-left: 150px;
+  margin-right: 150px;
+  width:1066px;
+  height: 750px;
+}
+
+#inputName{
+  width: 100px;
+  text-align: center;
+  height: 35px;
+  border: 4px solid #777;
+  border-radius: 8px;
+  resize: none;
+}
+
+body{
+  background: #9ACD32;
+  margin: = 0;
+}
+#textHist{
+  background: rgb(235, 235, 228);
+  border: 4px solid #777;
+  border-radius: 8px;
+  margin:20px;
+  width:800px;
+  height:550px;
+  overflow-y: auto;
+}
+
+#textInp{
+  float: left;
+  border: 4px solid #777;
+  border-radius: 8px;
+  margin:20px;
+  width:420px;
+  height:140px;
+}
+
+input.button {
+  height: 30px;
+  width: 40px; 
+  border: 4px solid #777;
+  border-radius: 8px;
+}
+.instruction {
+  height: 30px;
+  width: 200px; 
+  border: 4px solid #777;
+  border-radius: 8px;
+}
+#sent-message-area{
+  width: 49%;
+  margin-left: 10px;
+  margin-top:0px;
+  border-radius: 4px; 
+  margin-bottom:10px;
+  padding:20px;
+  box-shadow: 0.4em 0.4em 6px rgba(122,122,122,0.5);
+  background-color: #337ab7;
+  color: #fff;
+  word-wrap: break-word;
+  
+    max-width: 100%;
+}

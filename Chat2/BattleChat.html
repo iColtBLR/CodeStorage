@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SuperChat</title>
+<link rel = "stylesheet" href = "Style.css">
+<script src="scripts.js"></script>
+</head>
+<body >
+  <div class = "right_sidebar">
+      <br><b><font id="Name" face="Arial" style = "visibility: hidden;"></font></b></br>
+      <input id="inputName" placeholder="Nickname" maxlength="13"></textarea>
+      <input id="select" type="button" value = "Select" onclick="set_name()">
+    </div>
+  <center>
+  <div class = "header"><h1><font id="chatName">BattleChat</font></h1></div>
+  <div class = "main">
+    <div class = "history">
+      <div id="textHist"></div>
+    </div>
+
+    <div class = "message">
+      <textarea id="textInp" placeholder="input the messege..."></textarea>
+      <input class = "send" type="button" value = "Send message" onclick="send_mess()">
+    </div>
+
+
+
+  </div>
+</center>
+  
+</body>
+</html>
